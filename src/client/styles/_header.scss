@@ -1,0 +1,22 @@
+@mixin flexCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px 40px; 
+      
+}
+
+$fontSize:20px;
+$fontColor:rgb(13, 20, 128);
+$headerFoWeight:900;
+
+
+
+header {
+    h2{
+        @include flexCenter();
+        font-size: $fontSize;  
+        color: $fontColor; 
+    } 
+}

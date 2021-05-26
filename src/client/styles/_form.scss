@@ -1,0 +1,68 @@
+
+    $colorLight:white;
+    $colorDark: rgb(13, 20, 128);;
+    $colorSec: #d38c09;
+    
+    $color-background:$colorLight;
+    $color-text: $colorDark;
+    $color-accent: $colorSec;
+
+    $size-radius: 4px;
+    $fontWeight:900;
+   
+  
+  .card {
+    max-width: 800px;
+    height: 150px;
+    margin: 50px auto;
+    background-color: $color-background;
+    padding: 20px 20px;
+    margin-top: 10px;
+    border-radius: $size-radius;
+    border: 3px solid $colorSec ;
+    box-shadow: .2rem .2rem 0 $colorSec;
+    background-color: rgb(251, 250, 193);
+
+    & p{
+       font-weight: $fontWeight;
+       text-align: center;
+       color: $colorDark;
+
+    }
+  }
+
+
+  
+#form {
+    position: relative;
+
+    & label {
+        color:$colorDark;
+        font-weight: $fontWeight;
+    }
+     
+    & #article-url {
+      width:50vw;
+      padding: .5rem ;
+      margin: .5rem 1rem;
+      font-weight: bold;
+      text-align: center;
+      line-height: 1.2;
+    
+    }
+}
+
+button{
+    width: 10vw;
+    background-color: $colorSec;
+    color:$colorLight ;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 40%;
+    margin-top: 2%;
+    
+}
+  
+
+    

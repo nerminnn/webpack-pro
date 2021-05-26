@@ -1,0 +1,9 @@
+@import './header';
+
+footer {
+    h2{
+        @include flexCenter();
+        font-size: $fontSize;  
+        color: $fontColor; 
+    } 
+}
